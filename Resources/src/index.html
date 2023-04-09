@@ -1,0 +1,20 @@
+
+<html>
+  <style>
+    body{
+      background-color: #222;
+    }
+  </style>
+  <script>
+    
+
+    var passpr = localStorage.getItem("passpr");
+
+    if(passpr == "off" || !passpr){
+        window.location.assign("reddit/index.html");
+    }else{
+      window.location.assign("reddit/login.html");
+    }
+
+  </script>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Settings</title>
+
+</head>
+
+<body class="setbody">
+
+    <div class="calert" id="calert" style="display: none;">
+        <h3 id="alerth"></h3>
+        <p id="alertp"></p>
+        <button id="alertoff" onclick="alertoff()">OK</button>
+        <button id="alertrefresh" style="display: none;" onclick="alertrefresh()">OK</button>
+    </div>
+
+    <a href="index.html" id="bacnotbtn"><img src="img/x-mark.webp" alt=""></a>
+
+
+<div id="setzone">
+
+
+<h1>Settings</h1>
+<!--Security-->
+<div id="setdiv" >
+    <h2>Security</h2>
+    <div id="swizone">
+        <span>Password protection:</span>
+        <label class="switch">
+            <input type="checkbox" id="chckbox" type="chckbox" onclick="showsepa()">
+            <span class="slider round"></span>
+          </label>
+    </div>
+    <div id="setpzone" style="display: none;">
+ <br>
+        <h3>Set password</h3>
+        <br>
+        <span>New password:</span><input class="input" type="password" name="" id="pass">
+        <br>
+        <br>
+        <span>Re-enter new password:</span><input class="input" type="password" name="" id="passconf">
+        <br>
+        <br>
+        <button type="submit" id="sbtn" class="btns" onclick="regif()">SUBMIT</button>
+        <a href="login.html"><button type="submit" id="sbtn" class="btns" >Go lock screen</button></a>
+    </div>
+</div>
+
+<!--SET-BG-->
+<div id="setdiv" >
+   <h2>Set background</h2>
+   <br>
+   <img src="bg.jpg" width="100px" alt="" style="border-radius:5px ;"><input type="checkbox" id="bgcb1" class="chcsl" onclick="bgcb1()">
+   <br>
+   <img src="gray-bg.jpg" width="100px" alt="" style="border-radius:5px ;"><input type="checkbox" id="bgcb2" class="chcsl" onclick="bgcb2()">
+   <br>
+   <br>
+   <div id="swizone">
+    <span>Custom URL:</span>
+    <label class="switch">
+        <input type="checkbox" id="bgurlchc" type="chckbox" onclick="showbgurl()">
+        <span class="slider round"></span>
+      </label>
+</div>
+
+<div id="bgurl" style="display:none;">
+    <input class="input" type="text" id="bgurlinp">
+    <br>
+    <br>
+    <button class="btns" onclick="setbgurl()">Submit</button>
+</div>
+
+</div>
+
+<!--reset-->
+<div id="setdiv" >
+    <h2>Reset all settings</h2>
+<div id="resetbtnzone">
+    <button class="btns" onclick="resetconf()">RESET</button>
+</div>
+
+   <div id="resetarea" style="display: none;">
+    <br>
+    <h3>Important</h3>
+    <h3 id="notify"></h3>
+    <p>Reset all settings: background and password BUT NOT DELETE REDDIT SESSION!!!.</p>
+    <br>
+    <span>Yes I'm sure reset all settings:</span><input id="reschc" type="checkbox">
+    <br>
+    <br>
+    <button class="btns" onclick="resetall()">RESET!!!</button>
+   </div>
+
+</div>
+
+<!--Info-->
+<div id="setdiv" >
+    <img src="img/reddit-logo.webp" alt="" id="redinfico">
+    <p>Reddit-desktop version 1.0.0</p>
+    <br>
+    <div id="devzone">
+        <p>Design by <b>Sunaipa</b></p>
+        <i style="color:#fff;">Stay tuned to my github account for updates.</i>
+        <br>
+        <br>
+        <h3>Developer account:</h3>
+        <a href="https://github.com/sunaipa5/" target="_blank"><img id="giticon" src="img/github.webp" width="50px" alt=""></a>
+        <p style="color:crimson;">For any copyright issues contact sunaipa@duck.com or this github account.</p>
+    </div>
+</div>
+<br>
+
+
+</body>
+
+
+
+<script src="js/main.js"></script>
+<script src="js/settings.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<style>
+html,
+body {
+height: 100%;
+margin: 0;
+}
+</style>
+
+<body id="body">
+    <div class="welarea">
+<img src="img/reddit-logo.webp" alt="" width="300px">
+<br>
+<button id="lobtn" style="display: block;" onclick="loading()">Go Reddit</button>
+<div class="spinner-box" id="loite" style="display: none;">
+    <div class="three-quarter-spinner"></div>
+  </div>
+  <div class="setarea">
+    <a href="./settings.html"><img id="setbtn" src="img/gear.webp" alt=""></a>
+    </div>  
+    </div>
+
+    
+    
+<script>
+
+    function loading(){
+     document.getElementById("lobtn").style.display ="none";
+     document.getElementById("loite").style.display ="block";
+     window.location.assign("https://reddit.com");
+    }
+
+    img = localStorage.getItem("background");
+    if(img){
+      nimg = "url("+img+")";
+    document.body.style.backgroundImage = nimg; 
+    }else{
+      document.body.style.backgroundImage = "url(bg.jpg)"; 
+    }
+
+
+
+
+</script>
+
+        
+  
+</body>
+</html>

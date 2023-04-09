@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Login</title>
+</head>
+<style>
+  html,
+  body {
+  height: 100%;
+  margin: 0;
+  }
+  </style>
+  
+<body>
+ 
+<div id="loginarea">
+    <img src="img/passprotect.webp" alt="">
+    <input type="password" name="" id="pass">
+    <button type="submit" id="sbtn" onclick="loginf()">submit</button>
+</div>
+
+
+</body>
+<script src="js/main.js"></script>
+<script>
+    var passpr = localStorage.getItem("passpr");
+
+    if(passpr == "off" || !passpr){
+        window.location.assign("index.html");
+    }
+
+    img = localStorage.getItem("background");
+    if(img){
+      nimg = "url("+img+")";
+    document.body.style.backgroundImage = nimg; 
+    }else{
+      document.body.style.backgroundImage = "url(bg.jpg)"; 
+    }
+</script>
+</html>
