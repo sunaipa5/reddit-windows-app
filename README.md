@@ -51,4 +51,9 @@ Make sure you have Microsoft Edge WebView2 installed on your computer. <br>
 To install Edge Webview2 if not installed: https://developer.microsoft.com/en-us/microsoft-edge/webview2/
 <br>
 <br>
+<b>What was the application developed with? :</b><br>
+The application is developed with the tauri framework. 
+<a href="https://tauri.app/" target="_blank">More about Tauri...</a>
+<br>
+<br>
 <b><i>!!!IMPORTANT: For any copyright issues contact sunaipa@duck.com or this github account.<i></b>
