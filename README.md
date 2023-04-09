@@ -10,6 +10,8 @@
 <img width="50%" src="https://github.com/sunaipa5/reddit-windows-app/blob/main/img/main-menu.PNG">
 <h4>Settings:</h4>
 <img width="50%" src="https://github.com/sunaipa5/reddit-windows-app/blob/main/img/settings.PNG">
+<h4>Reddit look:</h4>
+<img width="50%" src="https://github.com/sunaipa5/reddit-windows-app/blob/main/img/reddit-look.PNG">
 
 <h2>Using:</h2>
 The application will not ask for a password when you first login, if you want to set a password, click the settings icon in the main menu. Just click the GO REDDIT button to go to reddit, you cannot return to the main menu after going to reddit, you must restart the application to access the main menu again, the application will enter the main menu every time it is opened. More in the FAQ.
