@@ -17,9 +17,9 @@ The application will not ask for a password when you first login, if you want to
 <h2>Download app:</h2>
   There are two options for installation: download .exe and run it directly or download .msi and install it on your computer. If you install it on your computer with .msi, the application will appear in the start menu and control panel, you can uninstall the application from the control panel if you want.
   <br>
-  <a href="https://raw.githubusercontent.com/sunaipa5/reddit-windows-app/main/downloads/reddit-executable.zip">Download executable-file-.exe</a>
+  <a href="https://github.com/sunaipa5/reddit-windows-app/raw/main/downloads/reddit-executable.zip">Download executable-file-.exe</a>
   <br>
-  <a href="https://raw.githubusercontent.com/sunaipa5/reddit-windows-app/main/downloads/reddit-setup.zip" >Download setup-file-.msi </a>
+  <a href="https://github.com/sunaipa5/reddit-windows-app/raw/main/downloads/reddit-setup.zip" >Download setup-file-.msi </a>
   
 <h2>FAQ:</h2>
 <b>How to on lock screen? :</b><br>
