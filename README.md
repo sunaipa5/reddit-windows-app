@@ -27,7 +27,7 @@ Go to the settings by clicking on the settings icon on the main page, then turn 
 <br>
 <br>
 <b>I forgot my lock screen password, what should I do? :</b><br>
-Delete the user/appdata/local/sunaipa.reddit folder, this will clear all app settings, your lock screen password and log you out of reddit account.
+Delete the <i>user/appdata/local/sunaipa.reddit</i> folder, this will clear all app settings, your lock screen password and log you out of reddit account.
 <br>
 <br>
 <b>What does reset in settings do? :</b><br>
@@ -39,7 +39,7 @@ Go to settings, set background from settings, you can choose one of the two back
 <br>
 <br>
 <b>Where is my data stored? :</b><br>
-All your data is stored locally in the user/appdata/local/sunaipa.reddit folder, if you delete this folder your reddit session will be logged out and the application will return to its factory settings.
+All your data is stored locally in the <i>user/appdata/local/sunaipa.reddit</i> folder, if you delete this folder your reddit session will be logged out and the application will return to its factory settings.
 <br>
 <br>
 <b>Which systems is the app compatible with? :</b><br>
