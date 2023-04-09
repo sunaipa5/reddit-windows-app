@@ -2,7 +2,7 @@
 
 <b>This app is compatible with windows 10 and 11.</b>
 
-<h2>Screenshost:</h2>
+<h2>Screenshots:</h2>
 
 <h4>Lock-screen:</h4>
 <img width="50%" src="https://github.com/sunaipa5/reddit-windows-app/blob/main/img/lock-screen.PNG">
